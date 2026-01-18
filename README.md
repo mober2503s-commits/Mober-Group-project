@@ -1,20 +1,15 @@
-#include<iostream> 
-using namespace std; 
- 
- 
-double validate(int amount){ 
+    #include<iostream> 
+    using namespace std; 
+    double validate(int amount){ 
     while (amount<0) 
     { 
         cout<<"enter the amount again: "<<endl; 
         cin>>amount; 
     } 
     return amount; 
-    
-    
-} 
- 
-int main(){ 
-    int months; 
+    }
+     int main(){ 
+     int months; 
     double annualtax,balance; 
  
     cout<<"enter balance: "<<endl; 

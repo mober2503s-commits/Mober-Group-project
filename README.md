@@ -58,9 +58,7 @@
     cout<<"Total Deposited: "<<totalDeposit<<endl; 
     cout<<"Total Withdrawl: "<<totalWithdraw<<endl; 
     cout<<"Total Tax: "<<totalTax<<endl; 
- 
- 
-}
+    }
 
 
 # Mober-Group-project
